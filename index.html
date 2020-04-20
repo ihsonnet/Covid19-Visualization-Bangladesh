@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <meta charset="utf-8">
     <title>Corona Update | Bangladesh</title>
   </head>
@@ -16,7 +18,7 @@
         <img src="img/divitione.png" alt="Divitio color list" height="auto" width="60%">
       </section-left>
         <section>
-          <svg style="margin-top:-20px" width="auto" height="55%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1544.65 2132.51">
+          <svg style="margin-top:-20px;" width="auto" height="55%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1544.65 2132.51">
             <g id="section" data-name="Layer 2">
               <g id="BD_XXX_District_locator_map" data-name="BD XXX District locator map">
                 <a onclick="document.getElementById('popup1').style.display='block';document.getElementById('popup2').style.display='none';document.getElementById('popup3').style.display='none';document.getElementById('popup4').style.display='none';document.getElementById('popup5').style.display='none';document.getElementById('popup6').style.display='none';document.getElementById('popup7').style.display='none';document.getElementById('popup8').style.display='none';" class="zoom" title="title"><g id="Rongpur" class="cls-1">
@@ -128,59 +130,82 @@
             </svg>
         </section>
 
+
         <aside class="Right">
-          <div class="details">বিস্তারিত করোনা আপডেট</div>
-              <div align="center" id="popup1"><div class="dist">রংপুর বিভাগ</div>মোট আক্রান্ত ২১৪৪
-                <p>মোট মৃত্যু ৮৪<br/>
-                মোট সুস্থ ৬৬<br/>
-                মোট চিকিৎসাধীন ১৯৯৪<p>
-              <button class="hide" onclick="document.getElementById('popup1').style.display='none'">x</button>
-              </div>
+          <div class="square1">
+            ২৪ ঘন্টায় আক্রান্ত<p style="font-size:22px;margin-top: -5px;">৪৯২</p>
+          </div>
+          <div class="square2">
+            গত ২৪ ঘন্টায় সুস্থ<p style="font-size:22px;margin-top: -5px;">১০</p>
+          </div>
+          <div class="square3">
+            গত ২৪ ঘন্টায় মৃত্যু<p style="font-size:22px;margin-top: -5px;">১০</p>
+          </div>
+          <div class="square11">
+            মোট আক্রান্ত<p style="font-size:22px;margin-top: -5px;" id="aff"></p>
+          </div>
+          <div class="square22">
+            মোট সুস্থ<p style="font-size:22px;margin-top: -5px;" id="rec"></p>
+          </div>
+          <div class="square33">
+            মোট মৃত্যু<p style="font-size:22px;margin-top: -5px;" id="det"></p>
+          </div>
+        <div>.</div>
+          <div class="deko">
+            <div class="details">বিভাগ ভিত্তিক করোনা আপডেট</div>
+                <div align="center" id="popup1"><div class="dist">রংপুর বিভাগ</div>মোট আক্রান্ত ২১৪৪
+                  <p>মোট মৃত্যু ৮৪<br/>
+                  মোট সুস্থ ৬৬<br/>
+                  মোট চিকিৎসাধীন ১৯৯৪<p>
+                <button class="hide" onclick="document.getElementById('popup1').style.display='none'">x</button>
+                </div>
 
 
-              <div align="center" id="popup2"><div class="dist">রাজশাহী বিভাগ</div>
-                              <p>মোট মৃত্যু ৮৪<br/>
-                              মোট সুস্থ ৬৬<br/>
-                              মোট চিকিৎসাধীন ১৯৯৪<p>
-              <button class="hide" onclick="document.getElementById('popup2').style.display='none'">x</button>
-              </div>
-              <div align="center" id="popup3"><div class="dist">খুলনা বিভাগ</div>মোট আক্রান্ত ২১৪৪
-                <p>মোট মৃত্যু ৮৪<br/>
-                মোট সুস্থ ৬৬<br/>
-                মোট চিকিৎসাধীন ১৯৯৪<p>
-              <button class="hide" onclick="document.getElementById('popup3').style.display='none'">x</button>
-              </div>
-              <div align="center" id="popup4"><div class="dist">বরিশাল বিভাগ</div>মোট আক্রান্ত ২১৪৪
-                <p>মোট মৃত্যু ৮৪<br/>
-                মোট সুস্থ ৬৬<br/>
-                মোট চিকিৎসাধীন ১৯৯৪<p>
-              <button class="hide" onclick="document.getElementById('popup4').style.display='none'">x</button>
-              </div>
-              <div align="center" id="popup5"><div class="dist">চট্টগ্রাম বিভাগ</div>মোট আক্রান্ত ২১৪৪
-                <p>মোট মৃত্যু ৮৪<br/>
-                মোট সুস্থ ৬৬<br/>
-                মোট চিকিৎসাধীন ১৯৯৪<p>
-              <button class="hide" onclick="document.getElementById('popup5').style.display='none'">x</button>
-              </div>
-              <div align="center" id="popup6"><div class="dist">সিলেট বিভাগ</div>মোট আক্রান্ত ২১৪৪
-                <p>মোট মৃত্যু ৮৪<br/>
+                <div align="center" id="popup2"><div class="dist">রাজশাহী বিভাগ</div>
+                                <p>মোট মৃত্যু ৮৪<br/>
+                                মোট সুস্থ ৬৬<br/>
+                                মোট চিকিৎসাধীন ১৯৯৪<p>
+                <button class="hide" onclick="document.getElementById('popup2').style.display='none'">x</button>
+                </div>
+                <div align="center" id="popup3"><div class="dist">খুলনা বিভাগ</div>মোট আক্রান্ত ২১৪৪
+                  <p>মোট মৃত্যু ৮৪<br/>
+                  মোট সুস্থ ৬৬<br/>
+                  মোট চিকিৎসাধীন ১৯৯৪<p>
+                <button class="hide" onclick="document.getElementById('popup3').style.display='none'">x</button>
+                </div>
+                <div align="center" id="popup4"><div class="dist">বরিশাল বিভাগ</div>মোট আক্রান্ত ২১৪৪
+                  <p>মোট মৃত্যু ৮৪<br/>
+                  মোট সুস্থ ৬৬<br/>
+                  মোট চিকিৎসাধীন ১৯৯৪<p>
+                <button class="hide" onclick="document.getElementById('popup4').style.display='none'">x</button>
+                </div>
+                <div align="center" id="popup5"><div class="dist">চট্টগ্রাম বিভাগ</div>মোট আক্রান্ত ২১৪৪
+                  <p>মোট মৃত্যু ৮৪<br/>
+                  মোট সুস্থ ৬৬<br/>
+                  মোট চিকিৎসাধীন ১৯৯৪<p>
+                <button class="hide" onclick="document.getElementById('popup5').style.display='none'">x</button>
+                </div>
+                <div align="center" id="popup6"><div class="dist">সিলেট বিভাগ</div>মোট আক্রান্ত ২১৪৪
+                  <p>মোট মৃত্যু ৮৪<br/>
 
-                মোট সুস্থ ৬৬<br/>
-                মোট চিকিৎসাধীন ১৯৯৪<p>
-              <button class="hide" onclick="document.getElementById('popup6').style.display='none'">x</button>
-              </div>
-              <div align="center" id="popup7"><div class="dist">ময়মনসিং বিভাগ</div>মোট আক্রান্ত ২১৪৪
-                <p>মোট মৃত্যু ৮৪<br/>
-                মোট সুস্থ ৬৬<br/>
-                মোট চিকিৎসাধীন ১৯৯৪<p>
-              <button class="hide" onclick="document.getElementById('popup7').style.display='none'">x</button>
-              </div>
-              <div align="center" id="popup8"><div class="dist">ঢাকা বিভাগ</div>মোট আক্রান্ত ২১৪৪
-                <p>মোট মৃত্যু ৮৪<br/>
-                মোট সুস্থ ৬৬<br/>
-                মোট চিকিৎসাধীন ১৯৯৪<p>
-              <button class="hide" onclick="document.getElementById('popup8').style.display='none'">x</button>
-              </div>
+                  মোট সুস্থ ৬৬<br/>
+                  মোট চিকিৎসাধীন ১৯৯৪<p>
+                <button class="hide" onclick="document.getElementById('popup6').style.display='none'">x</button>
+                </div>
+                <div align="center" id="popup7"><div class="dist">ময়মনসিং বিভাগ</div>মোট আক্রান্ত ২১৪৪
+                  <p>মোট মৃত্যু ৮৪<br/>
+                  মোট সুস্থ ৬৬<br/>
+                  মোট চিকিৎসাধীন ১৯৯৪<p>
+                <button class="hide" onclick="document.getElementById('popup7').style.display='none'">x</button>
+                </div>
+                <div align="center" id="popup8"><div class="dist">ঢাকা বিভাগ</div>মোট আক্রান্ত ২১৪৪
+                  <p>মোট মৃত্যু ৮৪<br/>
+                  মোট সুস্থ ৬৬<br/>
+                  মোট চিকিৎসাধীন ১৯৯৪<p>
+                <button class="hide" onclick="document.getElementById('popup8').style.display='none'">x</button>
+                </div>
+          </div>
+            <p id="demo"></p>
         </aside>
 
     </div>
@@ -189,4 +214,21 @@
     </section-bottom>
 
   </body>
+  <SCRIPT LANGUAGE="JavaScript" >var message="Sorry! Right click disabled. Message from Injamamul Haque Sonet";
+  //////////////////////////////////
+  function clickIE() {if (document.all) {alert(message);return false;}}
+  function clickNS(e) {if
+  (document.layers||(document.getElementById&&!document.all)) {
+  if (e.which==2||e.which==3) {alert(message);return false;}}}
+  if (document.layers)
+  {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+  else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+
+  document.oncontextmenu=new Function("return false")
+  // --></script>
+  <script src="js/rclick.js" type="text/JavaScript"></script>
+  <script src="js/lclick.js" type="text/JavaScript"></script>
+  <script src="js/app.js"></script>
+
+
 </html>
