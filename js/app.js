@@ -10,4 +10,8 @@ var data = JSON.parse(Get("https://covid19statbd.herokuapp.com/getData/bd"));
 document.getElementById("aff").innerHTML = data.totalAffected;
 document.getElementById("rec").innerHTML = data.totalRecovered;
 document.getElementById("det").innerHTML = data.totalDeath;
-document.getElementById("stat").innerHTML = data.covidVirusStat;
+document.getElementById("affday").innerHTML = data.last24HourAffected;
+document.getElementById("recday").innerHTML = data.last24HourRecovered;
+document.getElementById("detday").innerHTML = data.last24HourDeath;
+
+var dha = data.totalRecovered;
