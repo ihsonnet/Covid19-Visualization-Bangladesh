@@ -3,6 +3,7 @@
 }
 body {
 font-family: 'Baloo Da 2', cursive;
+background-color: #f9f9f9;
 font-family: 'Hind Siliguri', sans-serif;
 font-size: 16px;
   margin: 0px;
@@ -12,39 +13,74 @@ font-size: 16px;
 header {
   padding: 5px;
   background: white;
-  height:auto;
+  height:100px;
+  border-bottom:1.5px solid #efefef;
   color: black;
   border-radius: 0px 0px 0px 0px;
 }
-
+header-stiky {
+  padding: 5px;
+  background: white;
+  height:100px;
+  border-bottom:1.5px solid #efefef;
+  color: black;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  z-index: 1;
+  border-radius: 0px 0px 0px 0px;
+}
+header-left{
+align:left;padding left: 10px;width: 80%;padding-right:44%;float:left;
+}
+header-right {
+align:left; width:20%;padding-top: 20px;padding-left:4%;padding-right:0%;float: left;
+}
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 footer {
-  height: 100px; font-family:verdana , 'Hind Siliguri';font-size:15px;color:gray;background: #f9f9f9;border-top: 1.5px solid #efefef; padding:10px;
+   font-family:verdana , 'Hind Siliguri';
+   font-size:15px;
+   color:gray;
+   padding-bottom: -20px;
+   background: #f9f9f9;
+   border-top: 1.5px solid #efefef;
+   margin-top:10px ;padding:10px 10px 10px 10px;
 }
 footer-left {
   width: 35%;
   padding: 15px;
   float: left;
   height: auto;
-  background: #f9f9f9;
-  margin-left: 3%;
+  margin-left:0px;
+  margin-right:0px;
+  align: center;
 }
 footer-center{
-  width: 25%;
+  width: 35%;
   padding: 0px;
   float: left;
-  height: 400;
+  height: auto;
   background: #f9f9f9;
-  margin-left: 4%;
+  margin-left: 0%;
+  align: center;
 }
 footer-right{
   width: 20%;
   float: left;
   height: auto;
-  padding: 20px;
+  padding: 20px 0px 0px 0px;
   border-radius: 15px;
   border: 1px;
   border-color: gray;
-  margin-left: 10%;
+  margin-left: 6%;
   margin-top: -15px;
 }
 section-left{
@@ -70,10 +106,66 @@ section{
   height: auto;
   border-radius: 15px;
   border: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-color: gray;
   margin-left: 6.2%;
   margin-top: -15px;
 }
+.about {
+
+}
+about-left {
+  width: 35%;
+  float: left;
+  height: auto;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px;
+  border-color: gray;
+  margin-left: 10%;
+  margin-top: -15px;
+}
+about-right{
+  width: 35%;
+  float: left;
+  height: auto;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px;
+  border-color: gray;
+  margin-left: 10%;
+  margin-top: -15px;
+}
+.pic {
+  padding:5px;vertical-align: middle;border:1px solid gray;  width: 130px; height: 130px; border-radius: 50%; margin: 5px;
+
+}
+.profile {
+  width: 100%;
+  font-family:'Century Gothic' , 'Hind Siliguri';
+  height: auto;
+  background: #efefef;
+  border-radius: 15px;
+  border: 1px;
+  border-color: gray;
+  padding: 10px 5px 5px 5px;
+}
+
+.about-social {
+  background: #f7f7f7;
+  padding: 15px;
+  text-align: center;
+  float: none;
+  margin: 10px;
+  border: 1px solid #ccc;
+  color: white;
+  margin-top: 15px;
+  border-radius: 14px;
+}
+
+
+
 .deko{
     width: 100%;
     height: auto;
@@ -129,8 +221,8 @@ section{
 }
 .main {
   background: #f9f9f9;
-  margin-top: 4.5%;
-  padding-top: 3.5%;
+  margin-top: 0%;
+  padding-top: 35px;
 }
 .main::after {
   content: "";
