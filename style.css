@@ -45,6 +45,7 @@ header::after {
   clear: both;
   display: table;
 }
+
 footer {
    font-family:verdana , 'Hind Siliguri';
    font-size:15px;
@@ -84,35 +85,50 @@ footer-right{
   margin-top: -15px;
 }
 section-left{
-  width: 22%;
-  padding: 15px;
+  width: 20%;
+  align-content: center;
+  align-items: center;
+  padding: 10px 35px 0px 35px;
+  float: left;
+  margin-bottom:20px; 
+  height: auto;
+  background: #f9f9f9;
+  margin-left: 3%;
+}
+.sl-left {
+  width: 100%;
+  padding-left: 7%;
   float: left;
   height: auto;
   background: #f9f9f9;
-  margin-left: 2%;
+
 }
+.sl-right {
+  width: 100%;
+  padding-left: 10%;
+margin-left: -3px;
+  float: left;
+  height: auto;
+  background: #f9f9f9;
+}
+
+
 section{
-  width: 30%;
-  padding: 0px;
+  width: 36%;
+  padding: 20px 40px 20px 40px;
   float: left;
   height: 400;
   background: #f9f9f9;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 20px;
 }
 .Right{
-  width: 29%;
+  width: 36%;
   float: left;
   height: auto;
+  align-content: center;
   border-radius: 15px;
   border: 1px;
-  padding-top: 10px;
-  padding-bottom: 20px;
   border-color: gray;
-  margin-left: 8%;
-  margin-right: 8px;
-  margin-top: -15px;
+  padding: 10px 35px 5px 35px;
 }
 .about {
 
@@ -167,8 +183,14 @@ about-right{
 }
 
 @media only screen and (max-width:1100px) {
-  section-left ,section {
-    width: 45%;
+  section-left {
+    width: 100%;
+  }
+  .sl-left , .sl-right {
+    width: 50%;
+  }
+  section {
+    width: 100%;
   }
   about-left , about-right {
     width: 80%;
@@ -181,7 +203,7 @@ about-right{
     width: 100%;
   }
   .Right {
-    width: 85%;
+    width: 100%;
   }
 }
 
@@ -242,7 +264,7 @@ about-right{
 .main {
   background: #f9f9f9;
   margin-top: 0%;
-  padding-top: 35px;
+  padding-top: 22px;
 }
 .main::after {
   content: "";
@@ -251,11 +273,11 @@ about-right{
 }
 .square1 {
   background:#f7941e;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
   text-align: center;
   width: 33%;
   border-radius: 15px 0px 0px 0px;
-  height: 80px;
+  height: 100px;
   float: left;
   color: white;
 }
@@ -263,19 +285,19 @@ about-right{
   border:1px solid #f7941e;
   background: white;
   border-radius: 0px 0px 0px 15px;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
   text-align: center;
   width: 33%;
-  height: 80px;
+  height: 100px;
   float: left;
   color: black;
 }
 .square2 {
   background:#8dc63f;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
   text-align: center;
   width: 33%;
-  height: 80px;
+  height: 100px;
   float: left;
   margin-left:0.5%;
   color: white;
@@ -283,34 +305,34 @@ about-right{
 .square22 {
   border:1px solid #8dc63f;
   background: white;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
   text-align: center;
   width: 33%;
-  height: 80px;
+  height: 100px;
   float: left;
   margin-left:0.5%;
   color: black;
 }
 .square3 {
   background:#ed1c24;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
   text-align: center;
   border-radius: 0px 15px 0px 0px;
   width: 33%;
-  height: 80px;
+  height: 100px;
   float: left;
   margin-left:0.5%;
   color: white;
 }
 .square33 {
   border:1px solid #ed1c24;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
   border-radius: 0px 0px 15px 0px;
   text-align: center;
   background: white;
   width: 33%;
   float: left;
-  height: 80px;
+  height: 100px;
   margin-left:0.5%;
   color: black;
 }
