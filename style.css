@@ -205,6 +205,9 @@ about-right{
   .Right {
     width: 100%;
   }
+  body {
+  zoom: 1.3;
+  }
 }
 
 
