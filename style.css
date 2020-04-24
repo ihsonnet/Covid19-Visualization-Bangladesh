@@ -84,13 +84,18 @@ footer-right{
   margin-left: 6%;
   margin-top: -15px;
 }
+
+.counter {
+  align-content: left;
+  padding-top: 10px;
+}
 section-left{
   width: 20%;
   align-content: center;
   align-items: center;
   padding: 10px 35px 0px 35px;
   float: left;
-  margin-bottom:20px; 
+  margin-bottom:20px;
   height: auto;
   background: #f9f9f9;
   margin-left: 3%;
@@ -106,7 +111,7 @@ section-left{
 .sl-right {
   width: 100%;
   padding-left: 10%;
-margin-left: -3px;
+  margin-left:0px;
   float: left;
   height: auto;
   background: #f9f9f9;
@@ -204,6 +209,11 @@ about-right{
   }
   .Right {
     width: 100%;
+  }
+  .square1 .square2 .square3 .square11 .square11 .square22 .square33 {
+    height: auto;
+    font-size: auto;
+    width: auto;
   }
 }
 
