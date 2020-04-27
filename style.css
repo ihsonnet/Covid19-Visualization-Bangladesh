@@ -87,7 +87,17 @@ footer-right{
 
 .counter {
   align-content: left;
-  padding-top: 10px;
+  padding: 20px 0px 20px 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 200px;
+  border: 1px solid gray;
+  width: 100%;
+  background-color: #ccc;
+}
+.counter-m {
+  align-content: center;
+  padding: 20px;
 }
 section-left{
   width: 20%;
@@ -125,6 +135,27 @@ section{
   height: 400;
   background: #f9f9f9;
 }
+.row {
+  margin:0px 5px 0px 5px;
+  padding:10px 35px 10px 35px;
+  width: 100%;
+
+  align-content: center;
+}
+.map-icon {
+  align-self: center;
+  align: center;
+  margin: 5px;
+  width: 30%;
+  float: left;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+}
+.map-icon:hover {
+  transform: 1.6s;
+  cursor: pointer;
+  border-color: gray;
+}
 .Right{
   width: 36%;
   float: left;
@@ -132,8 +163,38 @@ section{
   align-content: center;
   border-radius: 15px;
   border: 1px;
-  border-color: gray;
   padding: 10px 35px 5px 35px;
+}
+
+section-one {
+  margin-top: 40px;
+  width: 35%;
+  padding: 10px 35px 0px 35px;
+  float: left;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+section-two {
+  width: 40%;
+  align-content: center;
+  align-items: center;
+  padding: 20px 35px 10px 35px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom:20px;
+  height: auto;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.section-three {
+  width: 36%;
+  float: left;
+  height: auto;
+  align-content: center;
+  border-radius: 15px;
+  border: 1px;
+  padding: 10px 35px 5px 35px;
+  clear: both;
 }
 .about {
 
@@ -207,6 +268,15 @@ about-right{
   footer-left {
     width: 100%;
   }
+  section-one {
+    width: 100%;
+  }
+  section-two {
+    width: 100%;
+  }
+  .section-three {
+    width: 100%;
+  }
   .Right {
     width: 100%;
   }
@@ -215,8 +285,16 @@ about-right{
     font-size: auto;
     width: auto;
   }
+  .counter {
+    display: none;
+  }
 }
 
+@media only screen and (min-width:1100px) {
+  .counter-m {
+    display: none;
+  }
+}
 
 .deko{
     width: 100%;
@@ -277,6 +355,17 @@ about-right{
   padding-top: 22px;
 }
 .main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.secondrow {
+  margin: 0px;
+  padding: 35px;
+  background-color: #f9f9f9;
+  height:auto;
+}
+.secondrow::after {
   content: "";
   clear: both;
   display: table;
