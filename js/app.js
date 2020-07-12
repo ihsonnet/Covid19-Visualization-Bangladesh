@@ -1,14 +1,14 @@
-let yourUrl = 'https://covid19statbd.herokuapp.com/getData/bd';
+let yourUrl = 'https://covid19statbd.herokuapp.com/data/bd';
 function Get(yourUrl){
     var Httpreq = new XMLHttpRequest(); // a new request
     Httpreq.open("GET",yourUrl,false);
     Httpreq.send(null);
-    //console.log(Httpreq.responseText)
-    //console.log(Httpreq.responseText.updateTime)
+    console.log(Httpreq.responseText)
+    console.log(Httpreq.responseText.updateTime)
     return Httpreq.responseText;
 }
 
-var data = JSON.parse(Get("https://covid19statbd.herokuapp.com/getData/bd"));
+var data = JSON.parse(Get("https://covid19statbd.herokuapp.com/data/bd"));
 document.getElementById("aff").innerHTML = data.totalAffected;
 document.getElementById("rec").innerHTML = data.totalRecovered;
 document.getElementById("det").innerHTML = data.totalDeath;
