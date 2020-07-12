@@ -439,7 +439,7 @@ about-right{
   color: black;
 }
 .square4 {
-  background:#ff09ca;
+  background:#d6367e;
   padding: 20px 10px 10px 10px;
   text-align: center;
   border-radius: 0px 0px 0px 15px;
@@ -453,7 +453,7 @@ about-right{
   border:1px solid #ff0000;
   padding: 20px 10px 10px 10px;
   text-align: center;
-  background: #6156ff;
+  background: #4673ce;
   width: 33%;
   float: left;
   height: 100px;
@@ -465,7 +465,7 @@ about-right{
   padding: 20px 10px 10px 10px;
   border-radius: 0px 0px 15px 0px;
   text-align: center;
-  background: #a6f80c;
+  background: #e29b32;
   width: 33%;
   float: left;
   height: 100px;
