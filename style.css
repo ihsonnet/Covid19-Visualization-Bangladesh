@@ -386,7 +386,7 @@ about-right{
 .square11 {
   border:1px solid #f7941e;
   background: white;
-  border-radius: 0px 0px 0px 15px;
+  /* border-radius: 0px 0px 0px 15px; */
   padding: 20px 10px 10px 10px;
   text-align: center;
   width: 33%;
@@ -429,7 +429,7 @@ about-right{
 .square33 {
   border:1px solid #ed1c24;
   padding: 20px 10px 10px 10px;
-  border-radius: 0px 0px 15px 0px;
+  /* border-radius: 0px 0px 15px 0px; */
   text-align: center;
   background: white;
   width: 33%;
@@ -438,6 +438,41 @@ about-right{
   margin-left:0.5%;
   color: black;
 }
+.square4 {
+  background:#ff09ca;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  border-radius: 0px 0px 0px 15px;
+  width: 33%;
+  height: 100px;
+  float: left;
+  /* margin-left:0.5%; */
+  color: white;
+}
+.square5 {
+  border:1px solid #ff0000;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  background: #6156ff;
+  width: 33%;
+  float: left;
+  height: 100px;
+  margin-left:0.5%;
+  color: white;
+}
+.square6 {
+  border:1px solid #2600ff;
+  padding: 20px 10px 10px 10px;
+  border-radius: 0px 0px 15px 0px;
+  text-align: center;
+  background: #a6f80c;
+  width: 33%;
+  float: left;
+  height: 100px;
+  margin-left:0.5%;
+  color: black;
+}
+
 
 .squaree1 {
   background:#f7941e;

@@ -3,6 +3,8 @@ function Get(yourUrl){
     var Httpreq = new XMLHttpRequest(); // a new request
     Httpreq.open("GET",yourUrl,false);
     Httpreq.send(null);
+    //console.log(Httpreq.responseText)
+    //console.log(Httpreq.responseText.updateTime)
     return Httpreq.responseText;
 }
 
@@ -13,6 +15,11 @@ document.getElementById("det").innerHTML = data.totalDeath;
 document.getElementById("affday").innerHTML = data.last24HourAffected;
 document.getElementById("recday").innerHTML = data.last24HourRecovered;
 document.getElementById("detday").innerHTML = data.last24HourDeath;
+
+document.getElementById("testday").innerHTML = data.last24HourTested;
+document.getElementById("test").innerHTML = data.totalTested;
+document.getElementById("perce").innerHTML = data.affectedPercentage;
+document.getElementById("updtime").innerHTML = data.updateTime;
 
 var dha = data.totalRecovered;
 
