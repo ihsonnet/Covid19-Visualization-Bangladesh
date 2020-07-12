@@ -3,8 +3,8 @@ function Get(yourUrl){
     var Httpreq = new XMLHttpRequest(); // a new request
     Httpreq.open("GET",yourUrl,false);
     Httpreq.send(null);
-    console.log(Httpreq.responseText)
-    console.log(Httpreq.responseText.updateTime)
+    //console.log(Httpreq.responseText)
+    //console.log(Httpreq.responseText.updateTime)
     return Httpreq.responseText;
 }
 
