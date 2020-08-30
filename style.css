@@ -302,13 +302,25 @@ about-right{
 .deko{
     width: 100%;
     height: auto;
-    background: #efefef;
+    background: #fffffc;
     border-radius: 15px;
-    border: 1px;
-    border-color: gray;
+    border: 1px solid #ccc;
     margin-top: 0px;
     padding-bottom: 5px;
 }
+
+.update {
+  position: fixed;
+  left: 7.2%;
+  bottom: 12%;
+  background-color: white;
+  opacity: 0.3;
+  padding: .8%;
+  border: 1px solid #EFEFEF;
+  z-index: 1;
+}
+
+
 .details {
   background: dodgerblue;
   padding: 15px;
@@ -379,7 +391,7 @@ about-right{
   text-align: center;
   width: 33%;
   border-radius: 15px 0px 0px 0px;
-  height: 100px;
+  height: 90px;
   float: left;
   color: white;
 }
@@ -390,7 +402,7 @@ about-right{
   padding: 20px 10px 10px 10px;
   text-align: center;
   width: 33%;
-  height: 100px;
+  height: 90px;
   float: left;
   color: black;
 }
@@ -399,7 +411,7 @@ about-right{
   padding: 20px 10px 10px 10px;
   text-align: center;
   width: 33%;
-  height: 100px;
+  height: 90px;
   float: left;
   margin-left:0.5%;
   color: white;
@@ -410,7 +422,7 @@ about-right{
   padding: 20px 10px 10px 10px;
   text-align: center;
   width: 33%;
-  height: 100px;
+  height: 90px;
   float: left;
   margin-left:0.5%;
   color: black;
@@ -421,7 +433,7 @@ about-right{
   text-align: center;
   border-radius: 0px 15px 0px 0px;
   width: 33%;
-  height: 100px;
+  height: 90px;
   float: left;
   margin-left:0.5%;
   color: white;
@@ -434,7 +446,7 @@ about-right{
   background: white;
   width: 33%;
   float: left;
-  height: 100px;
+  height: 90px;
   margin-left:0.5%;
   color: black;
 }
@@ -444,33 +456,33 @@ about-right{
   text-align: center;
   border-radius: 0px 0px 0px 15px;
   width: 33%;
-  height: 100px;
+  height: 90px;
   float: left;
   /* margin-left:0.5%; */
   color: white;
 }
 .square5 {
-  border:1px solid #ff0000;
+  border:1px solid #4673ce;
   padding: 20px 10px 10px 10px;
   text-align: center;
   background: #4673ce;
   width: 33%;
   float: left;
-  height: 100px;
+  height: 90px;
   margin-left:0.5%;
   color: white;
 }
 .square6 {
-  border:1px solid #2600ff;
+  border:1px solid #9C3AD2;
   padding: 20px 10px 10px 10px;
   border-radius: 0px 0px 15px 0px;
   text-align: center;
-  background: #e29b32;
+  background: #9C3AD2;
   width: 33%;
   float: left;
-  height: 100px;
+  height: 90px;
   margin-left:0.5%;
-  color: black;
+  color: white;
 }
 
 
@@ -480,7 +492,7 @@ about-right{
   text-align: center;
   width: 100%;
   border-radius: 15px 0px 0px 0px;
-  height: 100px;
+  height: 90px;
   float: left;
   color: white;
 }
@@ -491,7 +503,7 @@ about-right{
   padding: 20px 10px 10px 10px;
   text-align: center;
   width: 100%;
-  height: 100px;
+  height: 90px;
   float: left;
   color: black;
 }
